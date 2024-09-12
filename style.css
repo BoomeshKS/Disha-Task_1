@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    line-height: 1.6;
+    background-color: #f9f9f9;
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+  }
+  
+  header {
+    background: #333;
+    padding: 15px;
+    color: white;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 15px;
+    border-radius: 4px;
+  }
+  
+  .nav-links li a:hover {
+    background-color: #ff6363;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .hero-section {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 100px 20px;
+  }
+  
+  .hero-section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-section p {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  .cta-btn {
+    background-color: #ff6363;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cta-btn:hover {
+    background-color: #ff4747;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .about-section {
+    padding: 80px 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .column {
+    flex: 1;
+    max-width: 30%;
+    margin: 20px;
+  }
+  
+  .column h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .column p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .column:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+  }
+  
+  /* Services Section */
+  .services-section {
+    padding: 80px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  .service-box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease-in-out;
+  }
+  
+  .service-box:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .service-box h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+  
+  .service-box p {
+    color: #666;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+  }
+  
+  .footer p {
+    margin-bottom: 10px;
+  }
+  
+  .social-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-links li {
+    margin: 0 10px;
+  }
+  
+  .social-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .social-links li a:hover {
+    color: #ff6363;
+    transition: 0.3s ease-in-out;
+  }
+  
